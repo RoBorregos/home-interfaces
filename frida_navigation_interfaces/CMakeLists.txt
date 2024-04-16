@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   std_srvs
+  geometry_msgs
 )
 
 
@@ -23,6 +24,7 @@ add_action_files(
 add_service_files(
   FILES
   ViewAngle.srv
+  CreateGoal.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
