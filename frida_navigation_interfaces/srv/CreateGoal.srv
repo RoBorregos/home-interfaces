@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped target
+std_msgs/Float64 offset
+---
+geometry_msgs/Pose goal
