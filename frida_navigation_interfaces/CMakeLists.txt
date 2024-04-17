@@ -19,6 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_action_files(
   FILES
   navServ.action
+  moveAction.action
 )
 
 add_service_files(
