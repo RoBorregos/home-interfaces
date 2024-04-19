@@ -66,6 +66,8 @@ add_message_files(
   FILES
   Person.msg
   PersonList.msg
+  Shelf.msg
+  ShelfLevel.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -74,6 +76,7 @@ add_service_files(
   NewHost.srv
   FindSeat.srv
   Pointing.srv
+  ShelfDetections.srv
 )
 
 # Generate actions in the 'action' folder
