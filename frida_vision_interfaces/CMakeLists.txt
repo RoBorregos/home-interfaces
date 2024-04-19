@@ -73,6 +73,7 @@ add_service_files(
   FILES
   NewHost.srv
   FindSeat.srv
+  Pointing.srv
 )
 
 # Generate actions in the 'action' folder
