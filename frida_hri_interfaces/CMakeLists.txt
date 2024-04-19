@@ -24,6 +24,7 @@ add_service_files(
   STT.srv
   AudioText.srv
   GuestInfo.srv
+  ItemsCategory.srv
 )
 
 ## Generate actions in the 'action' folder
