@@ -77,6 +77,8 @@ add_service_files(
   FindSeat.srv
   Pointing.srv
   ShelfDetections.srv
+  FindPerson.srv
+  PersonCount.srv
 )
 
 # Generate actions in the 'action' folder
