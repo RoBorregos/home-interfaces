@@ -26,6 +26,7 @@ add_service_files(
   FILES
   ViewAngle.srv
   CreateGoal.srv
+  SetFollowState.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
