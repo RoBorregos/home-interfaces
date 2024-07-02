@@ -85,6 +85,7 @@ add_service_files(
 add_action_files(
   FILES
   DetectPointingObject.action
+  Moondream2.action
 )
 
 # Generate added messages and services with any dependencies listed here
@@ -93,6 +94,7 @@ generate_messages(
   std_msgs
   geometry_msgs
   actionlib_msgs
+  sensor_msgs
 )
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
