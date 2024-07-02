@@ -1,9 +1,9 @@
 #goal         
-std_msgs/String prompt
+string prompt
 sensor_msgs/Image frame
 ---
 #result
-std_msgs/String response
+string response
 ---
 #feedback
 float64 percentage
