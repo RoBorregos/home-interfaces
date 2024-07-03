@@ -1,5 +1,5 @@
 #goal definition
-uint8 NAV_MODE = -1
+uint8 NAV_MODE = 3
 uint8 FORWARD = 0
 uint8 BACKWARD = 1
 uint8 DOOR_SIGNAL = 2
