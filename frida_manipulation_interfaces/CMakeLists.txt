@@ -17,6 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   Gripper.srv
+  MoveJointSDK.srv
+  MoveVeloJointSDK.srv
 #  EnableOctomap.srv
 )
 
