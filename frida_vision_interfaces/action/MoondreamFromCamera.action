@@ -1,0 +1,13 @@
+#goal         
+string prompt
+string camera_topic
+float32 roi_x1
+float32 roi_y1
+float32 roi_x2
+float32 roi_y2
+---
+#result
+string response
+---
+#feedback
+float64 percentage
