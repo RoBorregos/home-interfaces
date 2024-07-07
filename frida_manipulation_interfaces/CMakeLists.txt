@@ -19,6 +19,7 @@ add_service_files(
   Gripper.srv
   MoveJointSDK.srv
   MoveVeloJointSDK.srv
+  MovePose.srv
 #  EnableOctomap.srv
 )
 
@@ -26,6 +27,7 @@ add_message_files(
   FILES
   objectDetection.msg
   objectDetectionArray.msg
+  moveXYZ.msg
 )
 
 add_action_files(
