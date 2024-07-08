@@ -18,6 +18,7 @@ add_service_files(
   FILES
   Gripper.srv
   MoveJointSDK.srv
+  MoveVeloJointSDK.srv
   AimToPointSDK.srv
   MovePose.srv
 #  EnableOctomap.srv
