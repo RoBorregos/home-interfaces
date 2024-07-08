@@ -1,0 +1,9 @@
+#goal         
+string prompt
+sensor_msgs/Image frame
+---
+#result
+string response
+---
+#feedback
+float64 percentage
