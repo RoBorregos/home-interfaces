@@ -1,0 +1,6 @@
+int64 joint_number
+geometry_msgs/PointStamped target_position
+float32 vel
+float32 acc
+---
+bool success
