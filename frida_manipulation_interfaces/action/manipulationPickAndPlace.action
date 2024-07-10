@@ -2,6 +2,8 @@
 int32 object_id
 string object_name
 objectDetection detection
+float64 plane_min_height
+float64 plane_max_height
 ---
 #result definition
 bool result
