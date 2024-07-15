@@ -29,6 +29,7 @@ add_message_files(
   objectDetection.msg
   objectDetectionArray.msg
   moveXYZ.msg
+  oBB.msg
 )
 
 add_action_files(
