@@ -1,4 +1,4 @@
-geometry_msgs/Point obb_center
+geometry_msgs/PointStamped obb_center
 float32 obb_yaw_angle
 float32 obb_perpendicular_length
 float32 obb_parallel_length
