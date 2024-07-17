@@ -24,6 +24,7 @@ add_service_files(
   AimToPointSDK.srv
   MovePose.srv
   GetObb.srv
+  HeatmapPlace.srv
 #  EnableOctomap.srv
 )
 
