@@ -1,9 +1,10 @@
 #goal definition
-uint8 FORWARD = 0
-uint8 BACKWARD = 1
-uint8 DOOR_SIGNAL = 2
+#Temporary disabled
+# uint8 FORWARD = 0
+# uint8 BACKWARD = 1
+# uint8 DOOR_SIGNAL = 2
 
-geometry_msgs/PoseStamped pose
+# geometry_msgs/PoseStamped pose
 uint8 goal_type
 ---
 #result definition

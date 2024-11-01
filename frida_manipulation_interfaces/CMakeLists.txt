@@ -25,6 +25,7 @@ add_service_files(
   MovePose.srv
   GetObb.srv
   HeatmapPlace.srv
+  MoveArm.srv
 #  EnableOctomap.srv
 )
 
