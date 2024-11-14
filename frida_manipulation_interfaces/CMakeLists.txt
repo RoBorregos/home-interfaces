@@ -11,6 +11,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   std_srvs
+  sensor_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -21,6 +23,9 @@ add_service_files(
   MoveVeloJointSDK.srv
   AimToPointSDK.srv
   MovePose.srv
+  GetObb.srv
+  HeatmapPlace.srv
+  MoveArm.srv
 #  EnableOctomap.srv
 )
 
@@ -29,6 +34,7 @@ add_message_files(
   objectDetection.msg
   objectDetectionArray.msg
   moveXYZ.msg
+  oBB.msg
 )
 
 add_action_files(
@@ -42,6 +48,7 @@ generate_messages(
   actionlib_msgs
   std_msgs
   geometry_msgs
+  sensor_msgs
 )
 
 catkin_package(
